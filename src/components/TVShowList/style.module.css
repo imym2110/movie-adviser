@@ -1,0 +1,19 @@
+.title {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+}
+.list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.list:hover {
+  overflow: scroll;
+}
+.tv_show_item {
+  margin-right: 20px;
+}
